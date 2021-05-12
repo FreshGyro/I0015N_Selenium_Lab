@@ -1,0 +1,189 @@
+{
+  "id": "e27aa347-566f-4a4e-a78b-c4c41d166146",
+  "version": "2.0",
+  "name": "I0015N 6.1",
+  "url": "https://www.actitime.com",
+  "tests": [{
+    "id": "4f0b750e-89e8-4975-9ab2-cc9317eb15d2",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "37a858ef-33f4-4657-bef5-c417adbe0b9b",
+    "name": "Actitime",
+    "commands": [{
+      "id": "a8743606-904e-4729-8d97-7a1b3cd20d17",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f84c7ba6-c582-40d0-9d15-72412d650eae",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "951x692",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad76bf87-f276-491a-b7e9-7cff93d8540f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header__burger",
+      "targets": [
+        ["css=.header__burger", "css:finder"],
+        ["xpath=//section[@id='HeaderVue']/header/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c061cc7d-4a8f-46f9-8a22-84369b3342b6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Try Free",
+      "targets": [
+        ["linkText=Try Free", "linkText"],
+        ["css=.header__button", "css:finder"],
+        ["xpath=//a[contains(text(),'Try Free')]", "xpath:link"],
+        ["xpath=//section[@id='HeaderVue']/header/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/free-online-trial')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Try Free')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "57d5ca14-4084-4d11-8b96-af6a68e5084c",
+      "comment": "",
+      "command": "click",
+      "target": "id=form-free-online-trial",
+      "targets": [
+        ["id=form-free-online-trial", "id"],
+        ["css=#form-free-online-trial", "css:finder"],
+        ["xpath=//form[@id='form-free-online-trial']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ba74534-b3e0-4403-a823-580bb957b3a0",
+      "comment": "",
+      "command": "click",
+      "target": "id=first-name",
+      "targets": [
+        ["id=first-name", "id"],
+        ["name=firstName", "name"],
+        ["css=#first-name", "css:finder"],
+        ["xpath=//input[@id='first-name']", "xpath:attributes"],
+        ["xpath=//form[@id='form-free-online-trial']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a684ec4-9b9a-4d0a-97c0-97ab506a16e6",
+      "comment": "",
+      "command": "type",
+      "target": "id=first-name",
+      "targets": [
+        ["id=first-name", "id"],
+        ["name=firstName", "name"],
+        ["css=#first-name", "css:finder"],
+        ["xpath=//input[@id='first-name']", "xpath:attributes"],
+        ["xpath=//form[@id='form-free-online-trial']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Aaaaaa"
+    }, {
+      "id": "b9754041-d504-41e0-a4d6-7fb88e687459",
+      "comment": "",
+      "command": "click",
+      "target": "id=last-name",
+      "targets": [
+        ["id=last-name", "id"],
+        ["name=lastName", "name"],
+        ["css=#last-name", "css:finder"],
+        ["xpath=//input[@id='last-name']", "xpath:attributes"],
+        ["xpath=//form[@id='form-free-online-trial']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50a99801-869d-46fe-be0d-3d21f071c203",
+      "comment": "",
+      "command": "type",
+      "target": "id=last-name",
+      "targets": [
+        ["id=last-name", "id"],
+        ["name=lastName", "name"],
+        ["css=#last-name", "css:finder"],
+        ["xpath=//input[@id='last-name']", "xpath:attributes"],
+        ["xpath=//form[@id='form-free-online-trial']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "bbbbbbb"
+    }, {
+      "id": "69fd994e-57be-49fd-a332-84c56956e4af",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=emailAddress", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='form-free-online-trial']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da5b3e5b-bfb1-4bbe-ba29-0d45a4f64bf4",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=emailAddress", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='form-free-online-trial']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "aaaaa@bbbbbbb.com"
+    }, {
+      "id": "a5d133d7-5fe1-47ed-9498-24f77e46516f",
+      "comment": "",
+      "command": "click",
+      "target": "id=company",
+      "targets": [
+        ["id=company", "id"],
+        ["name=company", "name"],
+        ["css=#company", "css:finder"],
+        ["xpath=//input[@id='company']", "xpath:attributes"],
+        ["xpath=//form[@id='form-free-online-trial']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d800c67d-5ff5-45c8-bab1-241dd1be29ba",
+      "comment": "",
+      "command": "type",
+      "target": "id=company",
+      "targets": [
+        ["id=company", "id"],
+        ["name=company", "name"],
+        ["css=#company", "css:finder"],
+        ["xpath=//input[@id='company']", "xpath:attributes"],
+        ["xpath=//form[@id='form-free-online-trial']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "ccccccccccc"
+    }]
+  }],
+  "suites": [{
+    "id": "616658a2-60e2-4583-9233-ef9141edbecf",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4f0b750e-89e8-4975-9ab2-cc9317eb15d2"]
+  }],
+  "urls": ["https://www.actitime.com/"],
+  "plugins": []
+}
